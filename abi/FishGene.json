@@ -1,0 +1,251 @@
+[
+  {
+    "inputs": [],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256[]",
+        "name": "geneLs",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "geneMerge",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "gene",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "pure",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "gene",
+        "type": "uint256"
+      }
+    ],
+    "name": "geneSplit",
+    "outputs": [
+      {
+        "internalType": "uint256[]",
+        "name": "geneLs",
+        "type": "uint256[]"
+      }
+    ],
+    "stateMutability": "pure",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "pos",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "rarity",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "ran",
+        "type": "uint256"
+      }
+    ],
+    "name": "getAdvanced",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "geneItem",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "pos",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "geneId",
+        "type": "uint256"
+      }
+    ],
+    "name": "getGeneIndex",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "pos",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "ran",
+        "type": "uint256"
+      }
+    ],
+    "name": "getNormal",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "gene",
+        "type": "uint256"
+      }
+    ],
+    "name": "getPower",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "power",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "gene",
+        "type": "uint256"
+      }
+    ],
+    "name": "getSuit",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "gene",
+        "type": "uint256"
+      }
+    ],
+    "name": "getSuitGroup",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256[]",
+        "name": "geneLs",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "mutation",
+    "outputs": [
+      {
+        "internalType": "uint256[]",
+        "name": "",
+        "type": "uint256[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "gene0",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "gene1",
+        "type": "uint256"
+      }
+    ],
+    "name": "newGene",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "suit",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "geneItemPower",
+        "type": "uint256"
+      }
+    ],
+    "name": "suitBuff",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "powerBuff",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "pure",
+    "type": "function"
+  }
+]

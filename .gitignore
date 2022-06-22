@@ -1,0 +1,8 @@
+node_modules
+
+#Hardhat files
+cache
+artifacts
+.DS_Store
+accData.json
+centralized_market/processedOrder.txt
